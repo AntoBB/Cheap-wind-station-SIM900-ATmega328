@@ -7,4 +7,4 @@ This repository contains the Arduino code to receive raw data from sensors, prep
 
 The Station is built as follows:
 
-![Alt Text](https://ibb.co/zP3ndT8)
+![Alt Text](https://i.postimg.cc/gJ1C83v2/IMG12.png)
