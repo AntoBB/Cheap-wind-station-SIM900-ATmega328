@@ -1,7 +1,7 @@
 <?php
     include 'connect.php';
 
-    // The HTTP GET SENT BY ARDUINO/SIM900 IS LIKE THIS:
+    // The HTTP-GET SENT BY ARDUINO/SIM900 LOOKS LIKE THIS:
     // http://mywebsite.com/receiver.php?speed=22.1&direction=SE&temp=22.1
 
 	$speed = $_GET['speed'];
