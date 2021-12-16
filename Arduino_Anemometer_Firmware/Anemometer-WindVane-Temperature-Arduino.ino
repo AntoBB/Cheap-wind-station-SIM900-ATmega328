@@ -8,7 +8,7 @@
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
-const byte interruptPin = 3; //anemomter input to digital pin
+const byte interruptPin = 3; //anemomoter input to digital pin
 volatile unsigned long sTime = 0; //stores start time for wind speed calculation
 unsigned long dataTimer = 0; //used to track how often to communicate data
 volatile float pulseTime = 0; //stores time between one anemomter relay closing and the next
