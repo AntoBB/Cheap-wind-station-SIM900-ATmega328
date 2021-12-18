@@ -1,5 +1,5 @@
 # Cheap-wind-station-SIM900-ATmega328
-A cheap remote wind station that sends 3G data to a php page. The station is self powered.
+A cheap remote wind station that sends data sensors to a php page on mobile data connection (3G-4G). The station is powered by solar energy.
 
 ![Alt Text](https://i.postimg.cc/Hk6597Xc/anemometer.gif)
 
