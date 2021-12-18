@@ -11,6 +11,8 @@ The Station is built as follows:
 
 ![Alt Text](https://i.postimg.cc/gJ1C83v2/IMG12.png)
 
+
+
 - The NRG # 40 Anemometer used here is a simple Hall effect sensor, so has 3-Wire (+ 24V, GND, SENS). Connect the SENS wire to Pin 3 of Arduino.
 
 The Arduino schetch simply calculates the frequency at which the Hall effect sensor rotates by means of the function:
@@ -34,6 +36,7 @@ void anemometerISR() {
 ```
 
 
+
 - The windvane Mierij Meteo MW36 has a frequency output. In this case we have + 24V, GND and SIGN cable. An analog signal with a frequency proportional to the angle of the flag is output from SIGN. It is connected to the Arduino A0 PIN. In the Arduino sketch this is the function to read from A0:
 
 ```
@@ -49,6 +52,7 @@ void loop() {
 }
 
 ```
+
 
 - The WINOMO DS18B20 Temperature Sensor is the classic temperature sensor of a few euros on Amazon. It is also powered only with a high Pin of Arduino (3.3V) and the SIGN cable (connected to PIN 2 of Arduino + 3.6k resistor in parallel), it is easily used by importing the libraries:
 
