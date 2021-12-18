@@ -66,3 +66,5 @@ and with the functions:
 ```
 sensors.requestTemperatures ();
 ```
+
+The Loop() of the sketch is delayed of 30 Seconds. if you needed to go faster, simply modify the delay.
